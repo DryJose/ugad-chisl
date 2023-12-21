@@ -1,0 +1,85 @@
+.page {
+	background: black;
+	height: 100vh;
+	margin: 0;
+  font-family: Rubik, sans-serif;
+	text-align: center;
+  letter-spacing: .1rem;
+}
+
+.container {
+	width: 350px;
+	margin: 0 auto 50px;
+	border-radius: 15px;
+	background-color: white;
+	padding: 25px;
+}
+
+.title {
+	font-size: 36px;
+	color: white;
+	margin: 100px auto 50px;
+  letter-spacing: .3rem;
+}
+
+.text {
+	margin: 0 0 10px;
+}
+
+.button {
+	border: none;
+	background-color: black;
+	padding: 10px 25px;
+  font-family: Rubik, sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 25px;
+	color: white;
+}
+
+.button:hover {
+  transition: 0.5s;
+    transform: scale(1.1)
+}
+
+.guessContainer {
+	opacity: 0;
+	transition: 0.2s;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	padding: 5px;
+	text-align: center;
+	margin: 0 5px;
+  font-family: Rubik, sans-serif;
+	font-size: 16px;
+}
+
+#errorText {
+	margin: 25px auto 5px;
+	font-size: 12px;
+	color: red;
+}
+
+.guessBtn {
+	background-color: black;
+}
+
+#resultText {
+	margin: 26px auto 6px;
+	font-size: 15px;
+	color: rgb(255, 136, 0);
+}
+
+#counter {
+	font-size: 12px;
+}
+
+#hintText {
+	font-size: 13px;
+	margin: 0;
+	font-weight: 600;
+}
